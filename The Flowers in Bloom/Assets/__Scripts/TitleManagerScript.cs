@@ -5,15 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class TitleManagerScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void NextScene()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SceneManager.LoadScene("Falling Flowers and Flowing Water-EASY");
     }
 }
