@@ -7,6 +7,7 @@ public class TitleManagerScript : MonoBehaviour
 {
     public void NextScene()
     {
-        SceneManager.LoadScene("Falling Flowers and Flowing Water-EASY");
+        // SceneManager.LoadScene("Falling Flowers and Flowing Water-EASY");
+        SceneManager.LoadScene("Menu");
     }
 }
