@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DropScript : MonoBehaviour
 {
-    public float noteSpeed = 5f;
+    [SerializeField] public float noteSpeed = 3f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,6 @@ public class DropScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-Vector3.forward * noteSpeed * Time.deltaTime);
+        transform.Translate(-Vector3.up * noteSpeed * Time.deltaTime);
     }
 }

@@ -178,6 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5430181161200141009}
   - component: {fileID: 4796392401310068652}
+  - component: {fileID: 2361715373954986978}
   m_Layer: 0
   m_Name: Drop
   m_TagString: Untagged
@@ -214,4 +215,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42f09d960e1b9c94ba326b1025c5dd5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteSpeed: 15
+  noteSpeed: 2.5
+--- !u!58 &2361715373954986978
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7792512764035127176}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.1733236, y: -7.222419}
+  serializedVersion: 2
+  m_Radius: 1.4082956
