@@ -45,10 +45,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8526126632385876776}
   - component: {fileID: 7635417148438033583}
+  - component: {fileID: 2828973562152353286}
   - component: {fileID: 3639432170367176468}
   m_Layer: 0
   m_Name: Sun Ray (2)
-  m_TagString: J
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,6 +121,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2828973562152353286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219664104560048650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431740ec678d5ef4b92e34eb56929f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &3639432170367176468
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -149,7 +162,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.083911896, y: -5.8082027}
@@ -175,10 +188,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2793522083344575374}
   - component: {fileID: 8302411351732367088}
+  - component: {fileID: 5887167752026690522}
   - component: {fileID: 4356714445699540149}
   m_Layer: 0
   m_Name: Sun Ray
-  m_TagString: D
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,6 +264,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5887167752026690522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3656649658550271507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431740ec678d5ef4b92e34eb56929f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &4356714445699540149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -279,7 +305,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.083911896, y: -5.8082027}
@@ -305,10 +331,11 @@ GameObject:
   m_Component:
   - component: {fileID: 7687616098207564202}
   - component: {fileID: 2957586469496328915}
+  - component: {fileID: 7832499749659465755}
   - component: {fileID: 5667726989940028846}
   m_Layer: 0
   m_Name: Sun Ray (3)
-  m_TagString: K
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -380,6 +407,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7832499749659465755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6716957047177897605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431740ec678d5ef4b92e34eb56929f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &5667726989940028846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -409,7 +448,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.083911896, y: -5.8082027}
@@ -435,10 +474,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6689316236016568040}
   - component: {fileID: 857282824615743916}
+  - component: {fileID: 7654894785142200921}
   - component: {fileID: 7296807036408684256}
   m_Layer: 0
   m_Name: Sun Ray (1)
-  m_TagString: F
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -510,6 +550,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7654894785142200921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7333847321977270885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431740ec678d5ef4b92e34eb56929f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &7296807036408684256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -539,7 +591,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.083911896, y: -5.8082027}
