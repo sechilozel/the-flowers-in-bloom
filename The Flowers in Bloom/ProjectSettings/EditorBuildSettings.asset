@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Falling Flowers and Flowing Water-EASY.unity
     guid: c69d512d824288442b0c9639c9716a8c
+  - enabled: 1
+    path: Assets/_Scenes/Result Scene.unity
+    guid: 301452e1e3a990f4d82e95920a2865a4
   m_configObjects: {}

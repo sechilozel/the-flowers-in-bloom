@@ -7,5 +7,6 @@ public class PauseButtonScript : MonoBehaviour
     public void StoppingTime()
     {
         Time.timeScale = 0;
+        
     }
 }
